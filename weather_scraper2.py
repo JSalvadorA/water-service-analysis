@@ -18,7 +18,7 @@ from tqdm import tqdm
 # =============================================================================
 # CONFIGURATION
 # =============================================================================
-SHAPEFILE_PATH = r"C:\Jerson\SUNASS\2025\3_Marzo\giz_serv\Cami_Yaku\geo_data\centroides_georeferencial.shp"
+SHAPEFILE_PATH = r"C:\Jerson\SUNASS\2025\3_Marzo\giz_serv\ml\geo_data\centroides_georeferencial.shp"
 OUTPUT_DIR = "data\\processed"
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "eps_daily_weather_pipe_single_batch.csv")
 
